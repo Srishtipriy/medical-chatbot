@@ -29,7 +29,7 @@ def set_custom_prompt(custom_prompt_template):                                  
 
 
 def main():
-    st.title("ask chatbot")
+    st.title("Ask Medi Chatbot")
 
     if "messages" not in st.session_state:
         st.session_state.messages = []

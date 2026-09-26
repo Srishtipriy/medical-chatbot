@@ -26,3 +26,15 @@ data/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+#HOw to run it----> run on terminal
+
+
+$env:Path = "C:\Users\ayush\.local\bin;$env:Path"
+uv run streamlit run medibot.py
+
+
+# yaa sirf
+python -m streamlit run medibot.py
